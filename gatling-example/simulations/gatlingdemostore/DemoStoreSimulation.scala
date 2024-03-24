@@ -89,5 +89,5 @@ class DemoStoreSimulation extends Simulation {
 		.exec(http("Checkout")
 			.get("/cart/checkout"))
 
-	setUp(scn.inject(atOnceUsers(1))).protocols(httpProtocol)
+	setUp(scn.inject(atOnceUsers(System.getProperty("users").toInt))).protocols(httpProtocol)
 }
