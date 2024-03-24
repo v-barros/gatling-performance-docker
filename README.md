@@ -1,6 +1,12 @@
 # gatling-performance-docker
 Docker image for Gatling (Free version) performance tests
 
+# V1.0 Settings:
+
+Linux Alpine 3.19.1
+Gatling 3.10.4
+OpenJDK 17
+
 # Pull the image 
 ```docker pull viniab/docker-gatling:latest```
 
